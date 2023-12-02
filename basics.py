@@ -21,3 +21,12 @@
 
 # input 
 
+# user_input = input("The input function")
+# print(user_input)
+
+
+user_greeting = input("Enter your name: ")
+
+
+print("hello",user_greeting,"have a nice day")
+
