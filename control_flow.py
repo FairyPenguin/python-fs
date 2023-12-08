@@ -19,7 +19,22 @@
 
 # control flow - for loop
 
-numbers_list = [1,2,3,4,5,6,7,8,9,10]
+# numbers_list = [1,2,3,4,5,6,7,8,9,10]
 
-for x in numbers_list:
-    print(x)
+# for x in numbers_list:
+#     print(x)
+
+# numbersdictionary = {1:"apple",2:"orange",3:"watermelon"}
+
+# # .keys .values .items
+# for x in numbersdictionary.items():
+#     print(x)
+
+
+# for x,y in numbersdictionary.items():
+#     print(x,y)
+
+# control flow - truthy && flasy values
+
+# 0 - empty_string "" - empty containers is falsy
+#everything else is truthy
