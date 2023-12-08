@@ -38,3 +38,27 @@
 
 # 0 - empty_string "" - empty containers is falsy
 #everything else is truthy
+
+
+list = (1,2,3,4,5)
+
+# for x in list:
+    
+#     if x == 2:
+#         print("the value is 2")
+#     while x ==5:
+#         print("last item \n" * 6 )
+#         x += 1
+#     else:
+#         print("the value is not 2")
+
+counter = 0
+
+for x in list:
+    if x == 2:
+        print("2")
+    else:
+        print("Not 2")
+while counter <= 6:
+    print("last item")
+    counter +=1
